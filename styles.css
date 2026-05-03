@@ -890,7 +890,6 @@ h3 {
   }
 }
 
-/* Keep mono details, but make navigation and CTAs cleaner */
 .site-nav,
 .header-cta,
 .button,
@@ -910,7 +909,6 @@ h3 {
   font-family: "Courier New", monospace;
 }
 
-/* Modern cleanup */
 .site-header {
   min-height: 74px;
   padding-top: 15px;
@@ -1175,7 +1173,6 @@ h3 {
   }
 }
 
-/* 2026 clinical editorial refresh */
 :root {
   --ink: #101412;
   --muted: #5f6861;
@@ -1493,7 +1490,6 @@ h3 {
   }
 }
 
-/* Clean 2026 directory treatment for category pages */
 body.inner main > .page-intro + .section {
   background:
     linear-gradient(135deg, rgba(217, 196, 174, 0.08), transparent 42%),
@@ -1618,7 +1614,6 @@ body.inner main > .page-intro + .section .link-card a:hover {
   }
 }
 
-/* Quieter content lists: no chunky blocks */
 .content-section .check-list {
   grid-template-columns: 1fr;
   gap: 0;
@@ -1647,7 +1642,6 @@ body.inner main > .page-intro + .section .link-card a:hover {
   background: var(--clay);
 }
 
-/* Related content should feel like navigation, not stacked boxes */
 .related-section {
   background:
     linear-gradient(140deg, rgba(217, 196, 174, 0.07), transparent 45%),
@@ -1700,7 +1694,6 @@ body.inner main > .page-intro + .section .link-card a:hover {
   border-bottom: 1px solid rgba(217, 196, 174, 0.5);
 }
 
-/* Curevo-inspired direction, adapted for Quantum Health without green */
 :root {
   --ink: #151720;
   --muted: #666d7d;
@@ -2313,7 +2306,6 @@ body.inner main > .page-intro + .section .link-card a:hover {
   }
 }
 
-/* Readability and placement repair pass */
 body,
 main,
 section {
@@ -2601,9 +2593,6 @@ body.inner main > .page-intro + .section .section-heading,
     gap: 14px;
   }
 }
-/* ================================
-   Mnenja strank - clean premium layout
-================================ */
 
 .testimonials-section {
   padding: clamp(78px, 10vw, 150px) clamp(16px, 4vw, 54px);
@@ -2778,10 +2767,6 @@ body.inner main > .page-intro + .section .section-heading,
     font-size: 14.5px;
   }
 }
-/* =========================================================
-   FINAL OVERRIDE: Mnenja strank - clean premium 2026 layout
-   Prilepi na konec styles.css
-========================================================= */
 
 .testimonials-section {
   position: relative !important;
@@ -3035,10 +3020,6 @@ body.inner main > .page-intro + .section .section-heading,
     height: 104px !important;
   }
 }
-/* =========================================================
-   FINAL OVERRIDE: O meni page - premium clinic layout
-   Prilepi na konec styles.css
-========================================================= */
 
 .about-hero .page-hero-overlay {
   background:
@@ -3392,7 +3373,6 @@ body.inner main > .page-intro + .section .section-heading,
     border-radius: 18px !important;
   }
 }
-/* O meni - local portrait image tuning */
 
 .about-hero img {
   object-position: center 18% !important;
@@ -3401,7 +3381,6 @@ body.inner main > .page-intro + .section .section-heading,
 .about-doctor-image img {
   object-position: center 18% !important;
 }
-/* O meni - softer hero background image */
 
 .about-hero-designed img {
   object-position: center center !important;
@@ -3411,10 +3390,6 @@ body.inner main > .page-intro + .section .section-heading,
 .about-doctor-image img {
   object-position: center 18% !important;
 }
-/* =========================================================
-   FINAL HOME PAGE OVERRIDE - Quantum Health / Curevo vibe
-   Prilepi na konec styles.css
-========================================================= */
 
 .qh-home-hero {
   min-height: 94vh !important;
@@ -3992,9 +3967,6 @@ body.inner main > .page-intro + .section .section-heading,
     width: 100% !important;
   }
 }
-/* =========================================================
-   FINAL CLEAN HOME - less text / cleaner Curevo vibe
-========================================================= */
 
 .home-hero-clean {
   min-height: 92vh !important;
@@ -4379,7 +4351,6 @@ body.inner main > .page-intro + .section .section-heading,
     width: 100% !important;
   }
 }
-/* HOME HERO IMAGE FIX + MOUSE PARALLAX */
 
 .home-hero-clean {
   overflow: hidden !important;
@@ -4417,9 +4388,6 @@ body.inner main > .page-intro + .section .section-heading,
     transform: scale(1.05) !important;
   }
 }
-/* =========================================================
-   INTEGRATIVA PAGE - clean premium Curevo style
-========================================================= */
 
 .integrative-hero img {
   object-position: center center !important;
@@ -4693,9 +4661,6 @@ body.inner main > .page-intro + .section .section-heading,
     border-radius: 24px !important;
   }
 }
-/* =========================================================
-   PREMIUM DETAIL PAGES - Quantum Health subpages
-========================================================= */
 
 .qh-detail-hero img {
   object-position: center center !important;
@@ -4937,9 +4902,6 @@ body.inner main > .page-intro + .section .section-heading,
     border-radius: 24px !important;
   }
 }
-/* =========================================================
-   AURIKULOTERAPIJA PAGE - custom clean section
-========================================================= */
 
 .aurik-hero img {
   object-position: center center !important;
@@ -5110,9 +5072,6 @@ body.inner main > .page-intro + .section .section-heading,
     padding: 0 20px 20px !important;
   }
 }
-/* =========================================================
-   AURIK FAQ - cleaner question directory
-========================================================= */
 
 .aurik-faq-section {
   padding: clamp(76px, 10vw, 140px) clamp(20px, 4vw, 54px) !important;
@@ -5219,7 +5178,6 @@ body.inner main > .page-intro + .section .section-heading,
     right: 18px !important;
   }
 }
-/* Integrativni Wellness additions */
 
 .qh-detail-programs {
   padding: clamp(78px, 10vw, 150px) clamp(20px, 4vw, 54px) !important;
@@ -5342,9 +5300,6 @@ body.inner main > .page-intro + .section .section-heading,
     font-size: clamp(28px, 9vw, 42px) !important;
   }
 }
-/* =========================================================
-   ESTETIKA PAGE - premium clean layout
-========================================================= */
 
 .aesthetic-hero img {
   object-position: center 42% !important;
@@ -5486,9 +5441,6 @@ body.inner main > .page-intro + .section .section-heading,
     border-radius: 24px !important;
   }
 }
-/* =========================================================
-   ESTETIKA PAGE FINAL CLEAN OVERRIDE
-========================================================= */
 
 .aesthetic-hero img {
   object-position: center 42% !important;
@@ -5813,10 +5765,6 @@ body.inner main > .page-intro + .section .section-heading,
     border-radius: 24px !important;
   }
 }
-/* =========================================================
-   Pomlajevanje obraza - premium aesthetic page
-   Prilepi na konec styles.css
-========================================================= */
 
 .rejuvenation-hero img {
   object-position: center 42% !important;
@@ -6184,10 +6132,6 @@ body.inner main > .page-intro + .section .section-heading,
     height: 320px !important;
   }
 }
-/* =========================================================
-   FIX: Pomlajevanje obraza - prej/potem slike
-   Prilepi na konec styles.css
-========================================================= */
 
 .before-after-grid {
   align-items: stretch !important;
@@ -6224,7 +6168,6 @@ body.inner main > .page-intro + .section .section-heading,
   margin-top: 8px !important;
 }
 
-/* Da slike niso ogromne na desktopu */
 @media (min-width: 900px) {
   .before-after-grid img {
     min-height: 260px !important;
@@ -6232,7 +6175,6 @@ body.inner main > .page-intro + .section .section-heading,
   }
 }
 
-/* Na telefonu naj bo še bolj čisto */
 @media (max-width: 680px) {
   .before-after-grid img {
     padding: 12px !important;
@@ -6240,10 +6182,6 @@ body.inner main > .page-intro + .section .section-heading,
     max-height: none !important;
   }
 }
-/* =========================================================
-   BODY SHAPING PAGE - oblikovanje telesa
-   Prilepi na konec styles.css
-========================================================= */
 
 .body-shape-hero img {
   object-position: center 42% !important;
@@ -6662,10 +6600,6 @@ body.inner main > .page-intro + .section .section-heading,
     padding: 0 20px 20px !important;
   }
 }
-/* =========================================================
-   LASERSKA EPILACIJA PAGE
-   Prilepi na konec styles.css
-========================================================= */
 
 .laser-hero img {
   object-position: center 42% !important;
@@ -7121,10 +7055,6 @@ body.inner main > .page-intro + .section .section-heading,
     padding: 0 20px 20px !important;
   }
 }
-/* =========================================================
-   EMBipolar Sculpt Neo page
-   Prilepi na konec styles.css
-========================================================= */
 
 .sculpt-hero img {
   object-position: center 42% !important;
@@ -7525,7 +7455,6 @@ body.inner main > .page-intro + .section .section-heading,
     border-radius: 24px !important;
   }
 }
-/* EMBipolar slike - popravek za pokončne 9:16 slike */
 .sculpt-image-pair {
   display: grid !important;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -7553,7 +7482,6 @@ body.inner main > .page-intro + .section .section-heading,
   filter: saturate(0.96) contrast(1.03) !important;
 }
 
-/* da cela sekcija bolj paše, ker sta sliki pokončni */
 .sculpt-feature {
   align-items: center !important;
 }
@@ -7575,9 +7503,6 @@ body.inner main > .page-intro + .section .section-heading,
     max-height: none !important;
   }
 }
-/* =========================================================
-   DERMA CLEAR PAGE - clean premium layout
-========================================================= */
 
 .dermaclear-hero img {
   object-position: center 42% !important;
@@ -7876,9 +7801,6 @@ body.inner main > .page-intro + .section .section-heading,
     grid-template-columns: 1fr !important;
   }
 }
-/* =========================================================
-   BIOREVITALIZACIJA PAGE - premium clean layout
-========================================================= */
 
 .biorevitalizacija-hero img {
   object-position: center 38% !important;
@@ -8223,7 +8145,6 @@ body.inner main > .page-intro + .section .section-heading,
     grid-template-columns: 1fr !important;
   }
 }
-/* Logo v headerju/footerju */
 .brand-with-logo {
   display: inline-flex !important;
   align-items: center !important;
@@ -8248,10 +8169,6 @@ body.inner main > .page-intro + .section .section-heading,
     max-height: 42px !important;
   }
 }
-/* =========================================================
-   FINAL LOGO FIX - Quantum Health
-   To prilepi na čisto konec styles.css
-========================================================= */
 
 .brand-with-logo {
   display: inline-flex !important;
@@ -8270,19 +8187,16 @@ body.inner main > .page-intro + .section .section-heading,
   object-fit: contain !important;
 }
 
-/* Na domači strani je header čez temen hero, zato naj bo logo bel */
 .home .site-header:not(.is-scrolled):not(.nav-active) .qh-logo-img {
   filter: brightness(0) invert(1) !important;
 }
 
-/* Ko scrollaš ali na notranjih straneh naj bo normalen logo */
 .site-header.is-scrolled .qh-logo-img,
 .site-header.nav-active .qh-logo-img,
 body:not(.home) .site-header .qh-logo-img {
   filter: none !important;
 }
 
-/* Footer je temen, zato logo pobelimo */
 .qh-footer-logo-img {
   width: 175px !important;
   filter: brightness(0) invert(1) !important;
